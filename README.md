@@ -5,9 +5,14 @@
   <a href="https://app.codacy.com/gh/dataease/dataease?utm_source=github.com&utm_medium=referral&utm_content=dataease/dataease&utm_campaign=Badge_Grade_Dashboard"><img src="https://app.codacy.com/project/badge/Grade/da67574fd82b473992781d1386b937ef" alt="Codacy"></a>
   <a href="https://github.com/dataease/dataease/releases/latest"><img src="https://img.shields.io/github/v/release/dataease/dataease" alt="Latest release"></a>
   <a href="https://github.com/dataease/dataease"><img src="https://img.shields.io/github/stars/dataease/dataease?color=%231890FF&style=flat-square" alt="Stars"></a>
-
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2F1dataease%2Fdataease?ref=badge_shield"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdataease%2Fdataease.svg?type=shield" alt="FOSSA Status"></a>  
 </p>
+
 <hr/>
+
+
+注：DataEase v1.18.20 将于 2024 年 6 月份发布，这将是 V1 版本的最后一个功能版本，后续仅针对安全漏洞进行修复。
+
 
 ## 什么是 DataEase？
 
@@ -53,15 +58,11 @@ DataEase 是开源的数据可视化分析工具，帮助用户快速分析数�
   <img src="https://dataease.io/images/dataSource/kylin.jpg" alt="Kylin" border="0" width="180" height="107"/>
 </p>
 
-> 更多数据源支持持续增加中...
-
 ## DataEase 模板市场
 
 -   [模板市场](https://dataease.io/templates/)
 
 ![模板市场](https://dataease.io/images/templates/templates.gif)
-
-> 更多优质模板持续增加中...
 
 ## 快速开始
 
@@ -79,35 +80,34 @@ DataEase 是开源的数据可视化分析工具，帮助用户快速分析数�
 2. 以 root 用户执行如下命令一键安装 DataEase。
 
 ```sh
-curl -sSL https://dataease.oss-cn-hangzhou.aliyuncs.com/quick_start.sh | sh
+curl -sSL https://dataease.oss-cn-hangzhou.aliyuncs.com/quick_start.sh | bash
 ```
 
 **学习资料**
 
--   [在线文档](https://dataease.io/docs/)
--   [教学视频](https://dataease.io/video.html)
--   [在线学习班](https://edu.fit2cloud.com/page/2635362?navIndex=0)
+-   [在线文档](https://dataease.io/docs/v1)
+-   [社区论坛](https://bbs.fit2cloud.com/c/de/6)
 
-**加入微信交流群**
-
-<img src="https://dataease.oss-cn-hangzhou.aliyuncs.com/img/wechat-helper.png" width="156" height="156"/>
-
-## DataEase 的技术栈
+## DataEase v1 的技术栈
 
 -   前端：[Vue.js](https://vuejs.org/)、[Element](https://element.eleme.cn/)
 -   图库：[Apache ECharts](https://github.com/apache/echarts)、[AntV](https://antv.vision/zh)
 -   后端：[Spring Boot](https://spring.io/projects/spring-boot)
 -   中间件：[MySQL](https://www.mysql.com/)
--   数据处理：[Kettle](https://github.com/pentaho/pentaho-kettle)、[Apache Doris](https://github.com/apache/incubator-doris/)
+-   数据处理：[Kettle](https://github.com/pentaho/pentaho-kettle)、[Apache Doris](https://github.com/apache/doris/)
 -   基础设施：[Docker](https://www.docker.com/)
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=dataease/dataease&type=Date)](https://star-history.com/#dataease/dataease&Date)
 
+## FOSSA Status
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdataease%2Fdataease.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdataease%2Fdataease?ref=badge_large)
+
 ## License
 
-Copyright (c) 2014-2023 [FIT2CLOUD 飞致云](https://fit2cloud.com/), All rights reserved.
+Copyright (c) 2014-2024 [FIT2CLOUD 飞致云](https://fit2cloud.com/), All rights reserved.
 
 Licensed under The GNU General Public License version 3 (GPLv3)  (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
